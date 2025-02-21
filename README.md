@@ -27,8 +27,8 @@ where:
 - \( K \) = Strike price  
 - \( T \) = Time to expiration (in years)  
 - \( r \) = Risk-free interest rate  
-- \( \sigma \) = Volatility of the stock  
-- \( N(d) \) = Cumulative normal distribution  
+- $\sigma$ = Volatility of the stock  
+- N(d) = Cumulative normal distribution  
 
 ---
 
