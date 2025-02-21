@@ -1,27 +1,25 @@
-# BlackScholes
-
-# 📘 Black-Scholes Option Pricing Calculator**
+# Black-Scholes Option Pricing Calculator
 ### A Python-based **Black-Scholes Model** for pricing European **call and put options** with an interactive **Jupyter Notebook UI** using `ipywidgets`.
 
-## **🚀 Features**
-✅ **Calculates theoretical option prices** using the Black-Scholes formula  
-✅ **Fetches real-time stock prices** using **Alpha Vantage API**  
-✅ **Computes historical volatility** using 1-year price data  
-✅ **Interactive UI with Jupyter Widgets** for easy input selection  
-✅ **Supports call and put options**  
-✅ **Error handling for invalid inputs**  
+## **A. Features**
+**1. Calculates theoretical option prices** using the Black-Scholes formula  
+**2. Fetches real-time stock prices** using **Alpha Vantage API**  
+**3. Computes historical volatility** using 1-year price data  
+**4. Interactive UI with Jupyter Widgets** for easy input selection  
+**5. Supports call and put options**  
+**6. Error handling for invalid inputs**  
 
-## **📌 How It Works**
+## **B. How It Works**
 
 The formula used is:
 
-\[
+$$
 C = S N(d_1) - K e^{-rT} N(d_2)
-\]
+$$
 
-\[
+$$
 P = K e^{-rT} N(-d_2) - S N(-d_1)
-\]
+$$
 
 where:
 
@@ -45,14 +43,7 @@ Open the **Black-Scholes-Calculator.ipynb** file.
 
 ---
 
-## **📊 Example Output**
-```
-Black-Scholes call option price for AAPL: $12.35
-```
-
----
-
-## **⚡ Technologies Used**
+## **Technologies Used**
 - **Python** (Core computation)
 - **NumPy & SciPy** (Mathematical operations)
 - **Alpha Vantage API** (Fetching real-time stock prices)
@@ -61,7 +52,7 @@ Black-Scholes call option price for AAPL: $12.35
 
 ---
 
-## **📝 Notes**
+## **Notes**
 - This model **assumes European-style options**, meaning options can only be exercised at expiration.
 - The **risk-free rate** is based on the **10-year Treasury yield**.
 - The script fetches **historical volatility** using **1-year stock price data**.
